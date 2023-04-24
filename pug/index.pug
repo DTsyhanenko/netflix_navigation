@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/Compiled-CSS/css/style.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer")
+        title Netflix Navigation
+    body
+        button.nav-btn.open-btn
+            i.fa-solid.fa-bars
+
+        img.logo(src="https://cdn.cdnlogo.com/logos/n/82/netflix.png", alt="Logo")
+
+        p.text Mobile Navigation
+
+        .nav.nav-black
+            .nav.nav-red
+                .nav.nav-white 
+                    button.nav-btn.close-btn
+                        i.fa-solid.fa-xmark
+
+                    img.logo(src="https://cdn.cdnlogo.com/logos/n/82/netflix.png", alt="Logo")
+
+                    ul.list 
+                        li 
+                            a(href="#") Teams
+                        li
+                            a(href="#") Location
+                        li
+                            a(href="#") Life at Netflix
+                        li 
+                            ul
+                                li
+                                    a(href="#") Netflix culture memo
+                                li
+                                    a(href="#") Work life balance
+                                li
+                                    a(href="#") Inclusion & diversity
+                                li 
+                                    a(href="#") Blog
+
+        script(src="/dist/index.js")
